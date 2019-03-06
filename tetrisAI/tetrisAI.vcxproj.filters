@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{076d54b3-496f-4701-963e-1ef79b5bed8d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{655f2df7-a6b7-4a00-a263-f6d2ac13aad4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="screen">
+      <UniqueIdentifier>{3eaf992e-9085-496d-b270-504838335b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen\board">
+      <UniqueIdentifier>{7a03d482-21d4-4c0f-8345-ab00f8f72491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen\board\tetris">
+      <UniqueIdentifier>{d4d7dd99-23ef-4102-b539-fdb58a6d85ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen\board\tetris\game">
+      <UniqueIdentifier>{a3cdfdbf-259f-46ac-81fc-4d6eab6d46ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen\board\tetris\ai">
+      <UniqueIdentifier>{f64684f2-c113-4d82-be12-1ade2acbb367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6b7f6a7b-66e5-4bd7-8264-a3c10fbc9b08}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>screen\board\tetris\game</Filter>
+    </ClCompile>
+    <ClCompile Include="ai.cpp">
+      <Filter>screen\board\tetris\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris.cpp">
+      <Filter>screen\board\tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>screen\board</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>screen\board\tetris\game</Filter>
+    </ClInclude>
+    <ClInclude Include="ai.h">
+      <Filter>screen\board\tetris\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris.h">
+      <Filter>screen\board\tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>screen\board</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
